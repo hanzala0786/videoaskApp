@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tagBlock{
+    position:absolute;
+    bottom:60px;
+    left:50px;
+    background: rgba(133, 36, 252, 0.56);
+    width: 130px;
+    height: 60px;
+    border-radius: 12px;
+    padding: 4px 16px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+.tagBlock:hover{
+    background: rgba(133, 36, 252);
+    transition: all, 200ms;
+    scale: 1.03;
+}
+
+@media (max-width:1024px) {
+    .videoplayer{
+        position: relative;
+    }
+    .controls{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .campaignControls{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .controlBtn{
+        background: rgba(0, 0, 0, 0.36);
+        color: white;
+        border: none;
+    }
+    .controlBtn:hover{
+        border: 1px solid blueviolet;
+    }
+    .tagBlock{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 24px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+}
