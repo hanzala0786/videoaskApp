@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/videoaskApp/static/css/main.85ebe382.css",
+    "main.js": "/videoaskApp/static/js/main.70b36c82.js",
+    "static/media/campaign-structure-video.mp4": "/videoaskApp/static/media/campaign-structure-video.f2d72d5148f89376d913.mp4",
+    "static/media/intro-video.mp4": "/videoaskApp/static/media/intro-video.6764319c1a4fc313ac32.mp4",
+    "index.html": "/videoaskApp/index.html",
+    "main.85ebe382.css.map": "/videoaskApp/static/css/main.85ebe382.css.map",
+    "main.70b36c82.js.map": "/videoaskApp/static/js/main.70b36c82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ebe382.css",
+    "static/js/main.70b36c82.js"
+  ]
+}
